@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个人</title>
+  <link rel="stylesheet" type="text/css" href="./public/weui.css">
+  <link rel="stylesheet" href="./public/bass.css">
+  <style>
+    .user-avatar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .user-avatar img{
+        max-width: 100px;
+        display: black;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="userinfo">
+    <div class="page">
+      <div class="page__hd">
+        <!-- <h1 class="page__title">放头像</h1> -->
+        <div class="user-avatar">
+            <img src="./public/img/default-avatar.png" alt="个人头像">
+            <div class="user-name">用户名</div>
+        </div>
+      </div>
+      <div class="page__bd">
+        <div class="weui-cells__title">用户个人信息</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>账单</p>
+                </div>
+                <div class="weui-cell__ft">查看您的账单</div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>二维码</p>
+                </div>
+                <div class="weui-cell__ft">生成二维码</div>
+            </div> 
+        </div>
+        <div class="weui-cells__title">其他信息</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>账单</p>
+                </div>
+                <div class="weui-cell__ft">说明文字</div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>二维码</p>
+                </div>
+                <div class="weui-cell__ft">说明文字</div>
+            </div> 
+        </div> 
+      </div>
+    </div>    
+  </div>
+</body>
+</html>
