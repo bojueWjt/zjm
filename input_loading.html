@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <title>指静脉录入中请稍等</title>
+
+    <link href="weui.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #f8f8f8;
+        padding-top: 50px;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="page__bd">
+        <div class="weui-loadmore">
+            <i class="weui-loading"></i>
+            <span class="weui-loadmore__tips">指静脉录入中请稍等</span>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+  var socket = io('http://192.168.0.111:2000');
+  socket.on('commit_input', function () {
+
+    window.location.href = "/input_success"
+  });
+</script>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>指静脉录入中请稍等</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link href="weui.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #f8f8f8;
+        padding-top: 50px;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="page__bd">
+        <div class="weui-loadmore">
+            <i class="weui-loading"></i>
+            <span class="weui-loadmore__tips">请付款用户验证指静脉</span>
+        </div>
+    </div>
+    <div class="weui-btn-area">
+        <a href="/shop_home" class="weui-btn weui-btn_default">取消</a>
+    </div>
+</div>
+<script>
+  var socket = io('http://192.168.0.111:2000');
+  socket.on('commit_pay', function (data) {
+
+    var param = window.location.href.split("?")[1]
+    window.location.href = "/pay_success?" + param
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <title>支付成功</title>
+
+    <link href="weui.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #f8f8f8;
+        padding-top: 50px;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="weui-msg">
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a class="weui-btn weui-btn_primary" id="commit_input">确认录入</a>
+                <a class="weui-btn weui-btn_primary" id="commit_pay">确认支付</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+  var socket = io('http://192.168.0.111:2000');
+
+  document.getElementById("commit_pay").onclick = function() {
+
+    console.log("commit pay")
+    socket.emit("commit_pay")
+  }
+
+  document.getElementById("commit_input").onclick = function() {
+
+    socket.emit("commit_input")
+  }
+</script>
+</body>
+</html>

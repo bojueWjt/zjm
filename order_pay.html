@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单生成页</title>
+
+    <link href="weui.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #f8f8f8;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="page">
+        <div class="weui-cells__title">请输入需要支付的金额</div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">订单总额</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入金额">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-btn-area">
+        <a class="weui-btn weui-btn_primary submit" id="showTooltips">确定</a>
+    </div>
+</div>
+</body>
+<script>
+    var submitBtn = document.getElementsByClassName("submit")[0];
+
+    submitBtn.onclick = function() {
+      var priceVal = document.getElementsByClassName("weui-input")[0].value;
+      console.log(priceVal);
+      window.location.href = "/pay_wait?price=" + priceVal;
+    }
+</script>
+</html>

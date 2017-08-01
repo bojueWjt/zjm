@@ -6,28 +6,47 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>商家首页</title>
-    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <!-- Include the compiled Ratchet CSS -->
-    <link href="./public/ratchet/css/ratchet.css" rel="stylesheet">
-
-    <!-- Include the compiled Ratchet JS -->
-    <script src="./public/ratchet/js/ratchet.js"></script>
+    <link href="weui.css" rel="stylesheet">
 </head>
 <style>
-    .content-padded {
-        margin-top: 50px;
+    body {
+        background: #f8f8f8;
+        padding-top: 50px;
     }
 </style>
 <body>
-<header class="bar bar-nav">
-    <h1 class="title">商家首页</h1>
-</header>
-<div class="content-padded">
-    <h3>拓夫科技便利店</h3>
-    <p>指静脉支付注册用户</p>
+<div class="container">
+    <div class="weui-panel weui-panel_access">
+        <div class="weui-panel__hd">商家首页</div>
+        <div class="weui-panel__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+                <div class="weui-media-box__hd">
+                    <img class="weui-media-box__thumb" src="toff.jpg" alt="">
+                </div>
+                <div class="weui-media-box__bd">
+                    <h4 class="weui-media-box__title">拓夫便利点</h4>
+                    <p class="weui-media-box__desc">指静脉识别支付测试商家</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="weui-cells__title">操作</div>
+    <div class="weui-cells">
+        <a class="weui-cell weui-cell_access" href="/userId_form">
+            <div class="weui-cell__bd">
+                <p>录入用户指静脉</p>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+        <a class="weui-cell weui-cell_access" href="/order_pay">
+            <div class="weui-cell__bd">
+                <p>订单支付</p>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+
+    </div>
 </div>
 </body>
 </html>
