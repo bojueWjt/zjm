@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66bb04f8-f50f-4578-a95e-d2da707851cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/toff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_loading.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/option.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order_pay.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay_success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay_wait.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/userId_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill.html" afterPath="$PROJECT_DIR$/bill.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrcode.html" afterPath="$PROJECT_DIR$/qrcode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop_home.html" afterPath="$PROJECT_DIR$/shop_home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userInfo.html" afterPath="$PROJECT_DIR$/userInfo.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -112,25 +97,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_success.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="input_success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input_success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="279">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.html">
+      <file leaf-file-name="qrcode.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qrcode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1844#1850#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +128,6 @@
         <option value="$PROJECT_DIR$/bill.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/qrcode.html" />
         <option value="$PROJECT_DIR$/userInfo.html" />
         <option value="$PROJECT_DIR$/shop_home.html" />
         <option value="$PROJECT_DIR$/userId_form.html" />
@@ -157,6 +138,7 @@
         <option value="$PROJECT_DIR$/pay_wait.html" />
         <option value="$PROJECT_DIR$/option.html" />
         <option value="$PROJECT_DIR$/input_success.html" />
+        <option value="$PROJECT_DIR$/qrcode.html" />
       </list>
     </option>
   </component>
@@ -364,12 +346,12 @@
       <updated>1500977128479</updated>
       <workItem from="1500977130156" duration="7259000" />
       <workItem from="1501048432794" duration="2840000" />
-      <workItem from="1501572864768" duration="216000" />
+      <workItem from="1501572864768" duration="1098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10315000" />
+    <option name="totallyTimeSpent" value="11197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -473,8 +455,8 @@
         <state relative-caret-position="645">
           <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1844#1850#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1844#1850#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,8 +546,8 @@
         <state relative-caret-position="645">
           <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1844#1850#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1844#1850#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -645,8 +620,8 @@
         <state relative-caret-position="645">
           <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1844#1850#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1844#1850#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,8 +692,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input_success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="279">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrcode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>

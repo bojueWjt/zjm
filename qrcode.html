@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>二维码</title>
+  <script src="http://apps.bdimg.com/libs/lodash/3.5.0/lodash.js"></script>
   <link rel="stylesheet" href="weui.css">
   <style>
     .page{
@@ -30,11 +31,27 @@
       margin: 20px;
       text-align: center;
     }
+    
+    .code_title {
+      text-align: center;
+    }
+
+    .code {
+      font-size: 64px;
+      font-weight: bolder;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div class="page">
     <div class="page__hd">
+    </div>
+    <div class="code_title">
+      用户id编号
+    </div>
+    <div class="code">
+
     </div>
     <div class="page__bd">
       <img src="img/mobie-qrcode.png" alt="二维码" class="qrcode">
@@ -46,3 +63,46 @@
   </div>
 </body>
 </html>
+
+<script>
+  /**
+   * 返回一个随机的小写字母
+   */
+  function getLowerCharacter(){
+    return getCharacter("lower");;
+  }
+
+
+  /**
+   * 返回一个随机的大写字母
+   */
+  function getUpperCharacter(){
+    return getCharacter("upper");;
+  }
+
+
+  /**
+   * 返回一个字母
+   */
+  function getCharacter(flag){
+    var character = "";
+    if(flag === "lower"){
+      character = String.fromCharCode(Math.floor( Math.random() * 26) + "a".charCodeAt(0));
+    }
+    if(flag === "upper"){
+      character = String.fromCharCode(Math.floor( Math.random() * 26) + "A".charCodeAt(0));
+    }
+    return character;
+  }
+
+  var perStr = getLowerCharacter() + getLowerCharacter();
+
+  var idCode = perStr + _.random(1000, 9999);
+  var locadId = localStorage.getItem("userId");
+
+  var setId = locadId || idCode;
+
+  document.getElementsByClassName("code")[0].innerHTML = setId;
+
+  localStorage.setItem("userId", setId);
+</script>
